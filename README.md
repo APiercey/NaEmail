@@ -12,7 +12,7 @@ Now, I release it into the wild!
 ## Getting Started
 Include `na-email.js` or `'na-email.min.js` (if small things is your fancy ;]) script onto your webpage and you're ready to start!
 
-To use this, add the CSS class `na-email` to your HTML with the follow attributes and values:
+To use this, add the CSS class `na-email` to your HTML tag with the follow attributes and values:
 * `data-email-name`: the `example` in `example@someworld.com`
 * `data-email-domain`: the `someworld` in `example@someworld.com`
 * `data-email-top-level`: the `com` in `example@someworld.com`. Don't add the first period!
