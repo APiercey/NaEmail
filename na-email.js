@@ -1,5 +1,6 @@
-if(window.addEventListener){
-  window.addEventListener('load',callback,false);
-}else{
-  window.attachEvent('onload',callback);
+var showEmail = function() {
+    
 }
+
+(window.addEventListener) ? window.addEventListener('load', showEmail, false) : window.attachEvent('onload', showEmail);
+
