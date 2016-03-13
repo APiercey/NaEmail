@@ -6,7 +6,31 @@
 </head>
 <body>
     <h1>NaEmail Demo</h1>
+
     <p>Hello! This is a simple demo for NaEmail. What with the name? 'Na' means 'after' in Dutch. When I built this, I was soon leaving to visit The Netherlands and needed a name, so it was just inspirational. It short for it's original name "After Loading Email".</p>
-    <span class="na-email" data-email-name="alexander.piercey" data-email-domain="gmail" data-email-top-level="com">This will dissapear after load and be replaced with an email :)</span>
+
+    <p>Here are some working examples:</p>
+    <ul>
+        <li>
+            <span class="na-email" 
+                  data-email-name="alexander.piercey" 
+                  data-email-domain="gmail" 
+                  data-email-top-level="com">
+                This will dissapear after load and be replaced with an email :)
+            </span>
+        </li>
+        <li>
+            <span class="na-email" 
+                  data-email-name="hello" 
+                  data-email-domain="world" 
+                  data-email-top-level="foo.bar">
+                Here's another with multi-level top domain!
+            </span>
+        </li>
+        <li>
+            Here is an example inside some content! Gasp! My email is <span class="na-email" data-email-name="example" data-email-domain="somesite" data-email-top-level="de">SHHH! It's a secret ;)</span>. No spam please :p.
+        </li>
+    </ul>
+    
 </body>
 </html>
