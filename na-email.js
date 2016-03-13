@@ -8,7 +8,7 @@ var showEmail = function() {
                     + e.getAttribute( 'data-email-domain' ) + '.' 
                     + e.getAttribute( 'data-email-top-level' );
 
-        if( replace ) { e.innerText = email; }
+        if( replace ) { e.innerHTML = email; }
         if( e.getAttribute( 'href' ) ) { e.setAttribute( 'href', 'mailto:' + email ); }
     }
 };
